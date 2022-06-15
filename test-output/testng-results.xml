@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[hello java]]>
+    </line>
+    <line>
+      <![CDATA[hello ruby]]>
+    </line>
+    <line>
+      <![CDATA[hello python]]>
+    </line>
+    <line>
+      <![CDATA[hello c#]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-06-15T12:11:22 IST" name="Suite" finished-at="2022-06-15T12:11:23 IST" duration-ms="185">
+    <groups>
+    </groups>
+    <test started-at="2022-06-15T12:11:22 IST" name="Test" finished-at="2022-06-15T12:11:23 IST" duration-ms="185">
+      <class name="jenkins.Test4">
+        <test-method signature="four()[pri:0, instance:jenkins.Test4@32ee6fee]" started-at="2022-06-15T12:11:23 IST" name="four" finished-at="2022-06-15T12:11:23 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[hello c#]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- four -->
+      </class> <!-- jenkins.Test4 -->
+      <class name="jenkins.Test3">
+        <test-method signature="three()[pri:0, instance:jenkins.Test3@53fdffa1]" started-at="2022-06-15T12:11:23 IST" name="three" finished-at="2022-06-15T12:11:23 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[hello ruby]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- three -->
+      </class> <!-- jenkins.Test3 -->
+      <class name="jenkins.Test2">
+        <test-method signature="second()[pri:0, instance:jenkins.Test2@5562c41e]" started-at="2022-06-15T12:11:23 IST" name="second" finished-at="2022-06-15T12:11:23 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[hello python]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- second -->
+      </class> <!-- jenkins.Test2 -->
+      <class name="jenkins.Test1">
+        <test-method signature="first()[pri:0, instance:jenkins.Test1@6d4e5011]" started-at="2022-06-15T12:11:23 IST" name="first" finished-at="2022-06-15T12:11:23 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[hello java]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- first -->
+      </class> <!-- jenkins.Test1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
